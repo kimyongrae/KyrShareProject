@@ -3,34 +3,8 @@ Custom Dialog
 
 1.커스텀 다이얼로그 xml 만들기
 
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:padding="10dp"
-    android:background="@android:color/transparent"
-    >
-
-    <ProgressBar
-        android:id="@+id/spin_kit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Please wait..."
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spin_kit"></TextView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-
-<img width="300" alt="커스텀 다이얼로그 xml" src="https://user-images.githubusercontent.com/28819051/139573423-f236103b-e00f-4797-9662-afc95c89f2f8.PNG">
+<img width="500" alt="커스텀 다이얼로그 xml 0" src="https://user-images.githubusercontent.com/28819051/139573530-e5f2838d-419f-499a-8187-dd77b87fef07.PNG">
+<img width="250" alt="커스텀 다이얼로그 xml" src="https://user-images.githubusercontent.com/28819051/139573423-f236103b-e00f-4797-9662-afc95c89f2f8.PNG">
 
 2.커스텀 다이얼로그에 연결
 
