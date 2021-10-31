@@ -7,15 +7,6 @@
     android:background="@android:color/transparent"
     >
 
-
-<!--    <ProgressBar
-        android:id="@+id/progressBar"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ProgressBar>-->
-
     <ProgressBar
         android:id="@+id/spin_kit"
         android:layout_width="wrap_content"
@@ -31,7 +22,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spin_kit"></TextView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
