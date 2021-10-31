@@ -4,7 +4,6 @@ Custom Dialog
 1.커스텀 다이얼로그 xml 만들기
 
 <img width="500" alt="커스텀 다이얼로그 xml 0" src="https://user-images.githubusercontent.com/28819051/139573530-e5f2838d-419f-499a-8187-dd77b87fef07.PNG">
-<img width="250" alt="커스텀 다이얼로그 xml" src="https://user-images.githubusercontent.com/28819051/139573423-f236103b-e00f-4797-9662-afc95c89f2f8.PNG">
 
 2.커스텀 다이얼로그에 연결
 
