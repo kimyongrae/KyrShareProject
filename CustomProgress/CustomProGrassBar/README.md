@@ -37,6 +37,7 @@ Custom Dialog
 <img width="500" alt="커스텀 다이얼로그 연결" src="https://user-images.githubusercontent.com/28819051/139573441-0fe0c0ef-ed1e-4cfc-8a19-5bd3934646ad.PNG">
 
 3.커스텀 다이얼로그 이벤트 발생시 실행 시키기
+
 <img width="500" alt="커스텀 다이얼로그 실행" src="https://user-images.githubusercontent.com/28819051/139573481-d7ac9336-8d5b-4fe0-8891-1623f5d76ec0.PNG">
 
 
