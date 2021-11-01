@@ -4,4 +4,5 @@
 
 
 1.dectect() 메소드 부분에서 TextRecognizer로 사진의 글씨를 읽어드림
+
 <img width="513" alt="surfaceview_source" src="https://user-images.githubusercontent.com/28819051/139636855-25d9bfb3-550c-470d-8f9c-54c8cdb08a07.PNG">
