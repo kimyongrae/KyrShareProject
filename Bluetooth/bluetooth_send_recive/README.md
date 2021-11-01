@@ -1,6 +1,8 @@
 블루투스 기기간 통신 하는 앱
 
 
+![블루투스 이미지](https://user-images.githubusercontent.com/28819051/139631019-c1ce6940-a18c-44bb-afd4-d86f3e60660a.jpg)
+
 
 
 1.서버 소켓에서 accept로 서버 소켓을 열고 클라이언트 대기
