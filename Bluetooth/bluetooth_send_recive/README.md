@@ -12,3 +12,4 @@
 2.클라이언트에서 서버 소켓과 연결 하고 통신 시작
 
 <img width="515" alt="클라이언트" src="https://user-images.githubusercontent.com/28819051/139630912-aaecd40b-b107-4bd2-80f1-c58ceda7ab8a.PNG">
+
