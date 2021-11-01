@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
         mpLineChart.setData(data);
         mpLineChart.invalidate();
 
-//깃허브 짱이다...
 
     }
 }
