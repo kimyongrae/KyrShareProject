@@ -1,0 +1,102 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "kyr.company.gradlesampletype"
+        minSdk 23
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+    }
+
+
+    signingConfigs {
+        release {
+            storeFile file('gradletest.jks') // 기준은 App 폴더 기준이다.
+            storePassword "123456"
+            keyAlias "gradle"
+            keyPassword "123456"
+        }
+    }
+
+    buildTypes {
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            applicationIdSuffix '.dev'
+            manifestPlaceholders = [
+                   appName : "@string/app_name_debug",
+                   appIcon : "@mipmap/ic_launcher"
+           ]
+            resValue "string", "prod_name", "prod"
+        }
+
+        release {
+            applicationIdSuffix '.release'
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [
+                    appName : "@string/app_name_release",
+                    appIcon : "@mipmap/ic_launcher"
+            ]
+            signingConfig signingConfigs.release
+            resValue "string", "beta_name", "beta"
+        }
+
+    }
+
+    flavorDimensions "test"
+    productFlavors {
+        free {
+            applicationIdSuffix ".free"
+            versionCode 101
+            versionName '1.0.1'
+        }
+        paid {
+            applicationIdSuffix ".paid"
+            versionCode 100
+            versionName '1.0.0'
+        }
+    }
+
+    sourceSets {
+        free {
+            manifest.srcFile 'src/free/AndroidManifest.xml'
+            java.srcDirs = ['src/free/java']
+            res.srcDirs = ['src/free/res']
+        }
+        paid {
+            manifest.srcFile 'src/paid/AndroidManifest.xml'
+            java.srcDirs = ['src/paid/java']
+            res.srcDirs = ['src/paid/res']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

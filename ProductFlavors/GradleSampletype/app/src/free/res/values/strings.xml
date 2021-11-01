@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name_release">Gradle_free_release</string>
+    <string name="app_name_debug">Gradle_free_debug</string>
+    <string name="hello">Free Hello World!!</string>
+</resources>
