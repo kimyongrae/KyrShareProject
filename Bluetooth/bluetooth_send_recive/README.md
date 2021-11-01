@@ -1,4 +1,4 @@
-블루투스 기기간 통신 하는 앱
+블루투스 소켓으로 서버와 클라이언트 통신 하는 앱
 
 
 <img width="450" height="500" alt="서버 소켓" src="https://user-images.githubusercontent.com/28819051/139631019-c1ce6940-a18c-44bb-afd4-d86f3e60660a.jpg">
