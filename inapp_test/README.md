@@ -32,5 +32,6 @@
 
 7.플레이 스토어에서 내부 앱 공유 가능 한 상태로 설정 하기
 
+![image](https://user-images.githubusercontent.com/28819051/139682410-d99d0ab5-180b-4cc6-bee8-4041ef66c834.png)
 
 
