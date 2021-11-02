@@ -8,3 +8,8 @@ ProductFlaovrs 를 통해 무료 버젼,유료 버젼 으로 나눌수 있고 Bu
 ![image](https://user-images.githubusercontent.com/28819051/139783818-a135230c-0ba7-4b1b-b7b3-76db8c43b44e.png)
 
 
+2.ProductFlaovrs 를 통해 무료 버젼,유료 버젼 관리
+
+![image](https://user-images.githubusercontent.com/28819051/139783911-e5259094-3211-42fe-905c-ff2e8cf474d8.png)
+
+3.소스 수정해주기 
