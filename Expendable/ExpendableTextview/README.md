@@ -5,3 +5,4 @@ ExpandableTextView 일정 라인수가 넘어가면 더보기 닫기를 사용�
 
 1.ViewTreeObserver에서 텍스트가 변하는지 관찰하고 관찰에 의해서 text를 변경 시킴
 ![image](https://user-images.githubusercontent.com/28819051/139641898-f1328b4f-de2a-4b2f-81e1-35b3ba972749.png)
+
