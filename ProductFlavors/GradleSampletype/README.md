@@ -12,4 +12,7 @@ ProductFlaovrs 를 통해 무료 버젼,유료 버젼 으로 나눌수 있고 Bu
 
 ![image](https://user-images.githubusercontent.com/28819051/139783911-e5259094-3211-42fe-905c-ff2e8cf474d8.png)
 
-3.소스 수정해주기 
+3.각 flavor별로 리소스 관리
+
+![image](https://user-images.githubusercontent.com/28819051/139784180-ccfed03e-9694-4787-b5d7-7c11931e82b8.png)
+
