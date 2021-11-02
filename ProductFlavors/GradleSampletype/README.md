@@ -3,5 +3,8 @@ ProductFlaovrs 를 통해 무료 버젼,유료 버젼 으로 나눌수 있고 Bu
 ![image1](https://user-images.githubusercontent.com/28819051/139783297-f29367bc-6fd6-4f47-9952-e7c349659802.jpg)
 
 
-1.
+1.bulidTypes을 bulid를 수정
+
+![image](https://user-images.githubusercontent.com/28819051/139783818-a135230c-0ba7-4b1b-b7b3-76db8c43b44e.png)
+
 
