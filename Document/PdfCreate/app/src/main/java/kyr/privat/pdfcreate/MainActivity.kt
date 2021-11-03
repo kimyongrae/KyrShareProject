@@ -205,7 +205,6 @@ class MainActivity : AppCompatActivity() {
                 val dataName: String = dateFormat1.format(dateObj)
                 val strFolderPath = getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS+File.separator+dataName)!!.absolutePath
 
-
                 val folder = File(strFolderPath)
 
                 if (!folder.exists()) {
@@ -216,7 +215,7 @@ class MainActivity : AppCompatActivity() {
                 try {
                     val time = dateFormat2.format(dateObj)
 
-                    val image1 = strFolderPath+time+".pdf"
+                    val image1 = "$strFolderPath$time.pdf"
 
                     val out =FileOutputStream(image1)
                     pdfDocument.writeTo(out);

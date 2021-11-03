@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import org.apache.poi.xwpf.usermodel.*
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTSectPr
@@ -70,9 +71,6 @@ class MainActivity : AppCompatActivity() {
             document.createTOC()
 
 
-
-
-
             val fileOutputStream : FileOutputStream = FileOutputStream(filePath)
             document.write(fileOutputStream)
 
@@ -82,6 +80,8 @@ class MainActivity : AppCompatActivity() {
             }
             document.close()
 
+
+            Toast.makeText(applicationContext,filePath!!.path,Toast.LENGTH_SHORT).show()
 
         }
 
