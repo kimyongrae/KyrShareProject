@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PdfCreate</string>
+
+    <string-array name="pizza_menu">
+        <item>선택</item>
+        <item>콤비네이션</item>
+        <item>페파로니</item>
+        <item>치즈피자</item>
+        <item>불고기피자</item>
+    </string-array>
+</resources>
